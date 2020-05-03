@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fddb388-43a2-45b8-ad00-d17f0caaaa2c" name="Default Changelist" comment="" />
+    <list default="true" id="0fddb388-43a2-45b8-ad00-d17f0caaaa2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/.vs/Satellite program - C sharp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/.vs/Satellite program - C sharp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/bin/Debug/Satellite program - C sharp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/bin/Debug/Satellite program - C sharp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/bin/Debug/Satellite program - C sharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/bin/Debug/Satellite program - C sharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bLr5Kn2QMvmHfK6e6IVb0qCoNv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +36,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Python/project" />
   </component>
   <component name="RunManager">
     <configuration name="Track" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -66,22 +81,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="629" height="885" key="GridCell.Tab.0.bottom" timestamp="1588534203897">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1588535051320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588534203897" />
-    <state width="629" height="885" key="GridCell.Tab.0.center" timestamp="1588534203897">
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588535051320" />
+    <state width="629" height="885" key="GridCell.Tab.0.bottom" timestamp="1588535052580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588534203897" />
-    <state width="629" height="885" key="GridCell.Tab.0.left" timestamp="1588534203897">
+    <state width="629" height="885" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588535052580" />
+    <state width="629" height="885" key="GridCell.Tab.0.center" timestamp="1588535052579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588534203897" />
-    <state width="629" height="885" key="GridCell.Tab.0.right" timestamp="1588534203897">
+    <state width="629" height="885" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588535052579" />
+    <state width="629" height="885" key="GridCell.Tab.0.left" timestamp="1588535052579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588534203897" />
+    <state width="629" height="885" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588535052579" />
+    <state width="629" height="885" key="GridCell.Tab.0.right" timestamp="1588535052579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="629" height="885" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588535052579" />
     <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1588534253044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

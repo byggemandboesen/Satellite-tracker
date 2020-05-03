@@ -8,7 +8,7 @@ using System.Net.Sockets;
 using System.IO;
 using System.Net;
 
-namespace Eksamensprojekt_kode
+namespace Satellite_program___C_sharp
 {
     class Track
     {

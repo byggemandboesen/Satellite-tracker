@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eksamensprojekt_kode
+namespace Satellite_program___C_sharp
 {
     class Satinfo
     {

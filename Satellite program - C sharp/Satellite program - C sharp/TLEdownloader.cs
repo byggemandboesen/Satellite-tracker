@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Net;
 using System.IO;
 
-namespace Eksamensprojekt_kode
+namespace Satellite_program___C_sharp
 {
     //Class that saves all the links to different TLE files and stores the directory for TLE that user has given
     class TLE_links
