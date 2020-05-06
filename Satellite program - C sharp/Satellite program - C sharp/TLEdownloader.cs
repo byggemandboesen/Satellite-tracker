@@ -56,8 +56,6 @@ namespace Satellite_program___C_sharp
 
         public static void TLE_main()
         {
-            Console.Clear();
-
             if (TLE_links.TLE_path == null)
             {
                 Get_path();
@@ -110,16 +108,23 @@ namespace Satellite_program___C_sharp
             Console.WriteLine("{0}: Update all", TLE_links.tlenames.Length);
 
             int tle_choice = 0;
+            Console.Write("Number: ");
             try
             {
                 tle_choice = Convert.ToInt32(Console.ReadLine());
+                if (tle_choice > TLE_links.tlenames.Length || tle_choice < 0)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Invalid input... Try again:");
+                    TLE_main();
+                }
             }
             catch
             {
                 Console.WriteLine("Invalid input... try again:");
                 Tle_print();
             }
-
+            Console.Clear();
             return tle_choice;
         }
 

@@ -154,7 +154,7 @@ while True:
 
     # Plots satellite footprint
     sat_radius = get_radius()
-    my_map.tissot(x, y, sat_radius, 50, color='black', alpha=0.4, linestyle='dashed')
+    my_map.tissot(x, y, sat_radius, 100, color='black', alpha=0.4, linestyle='dashed')
 
     # Plots the satellite groundpath in next 90min
     sat_lon_pred, sat_lat_pred = sat_groundpath(tle_sat)

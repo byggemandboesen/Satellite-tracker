@@ -14,7 +14,7 @@ namespace Satellite_program___C_sharp
     {
         public static void Satpasses()
         {
-            // Tjekker om fil-placering til TLE er udfyldt
+            // Checks if a directory is given
             if (TLE_links.TLE_path == null)
             {
                 TLEdownloader.Get_path();
@@ -22,12 +22,19 @@ namespace Satellite_program___C_sharp
             }
             Console.Clear();
 
-
-            Console.WriteLine("Which TLE is the satellite located in?");
-            string[] TLE = Satinfo.TLE_print();
-            int num_tle = User_choices.User_val();
+            // Checks if TLE is downloaded into directory given
+            if (Global.TLE_dir() == true)
+            {
+                Console.WriteLine("TLE files are necessary to use this feature.");
+                TLEdownloader.TLE_main();
+            }
+            
+            Console.Write("Which TLE is the satellite located in?: ");
+            string[] TLE = Global.TLE_print();
+            int num_tle = Global.User_val();
             string tle_chosen = "";
-            // Try-catch tjekker om valgt TLE er gyldig
+            
+            // Try-catch checks if chosen TLE is valid
             try
             {
                 tle_chosen = TLE[num_tle];
@@ -39,25 +46,20 @@ namespace Satellite_program___C_sharp
                 Satpasses();
             }
 
-
             Console.WriteLine("Please choose the satellite you wish to track:");
             string[] Sats = Print_sats(tle_chosen);
-            int num_sat = User_choices.User_val();
+            int num_sat = Global.User_val();
             Check_val(num_sat, Sats);
             string[] TLE_sat = Get_tle(tle_chosen, num_sat);
 
-
-            //Opretter TCP-socket forbindelse
+            //Establishes TCP connection
             Socket socket = Socket();
 
-
-            // Sender TLE-data til python-program:
+            // Sends TLE to python program
             Send_tle(socket, TLE_sat);
             System.Threading.Thread.Sleep(2500);
             socket.Disconnect(true);
 
-
-            Program.Keyword_printer();
         }
 
 

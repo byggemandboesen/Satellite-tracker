@@ -57,8 +57,10 @@ namespace Satellite_program___C_sharp
         {
             Console.WriteLine("Input the selected keyword");
             string menuinput = Menu();
+
             if (menuinput == "tle")
             {
+                Console.Clear();
                 TLEdownloader.TLE_main();
                 Console.Clear();
                 Keyword_printer();
@@ -66,6 +68,8 @@ namespace Satellite_program___C_sharp
             else if (menuinput == "track")
             {
                 Track.Satpasses();
+                Console.Clear();
+                Keyword_printer();
             }
             else if (menuinput == "satinfo")
             {
