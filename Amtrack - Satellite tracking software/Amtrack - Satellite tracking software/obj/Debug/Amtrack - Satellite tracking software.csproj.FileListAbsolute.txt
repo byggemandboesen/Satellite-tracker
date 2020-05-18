@@ -1,0 +1,10 @@
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\bin\Debug\Amtrack - Satellite tracking software.exe.config
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\bin\Debug\Amtrack - Satellite tracking software.exe
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\bin\Debug\Amtrack - Satellite tracking software.pdb
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\obj\Debug\Amtrack - Satellite tracking software.csprojAssemblyReference.cache
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\obj\Debug\Amtrack___Satellite_tracking_software.Properties.Resources.resources
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\obj\Debug\Amtrack - Satellite tracking software.csproj.GenerateResource.cache
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\obj\Debug\Amtrack - Satellite tracking software.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\obj\Debug\Amtrack - Satellite tracking software.exe
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\obj\Debug\Amtrack - Satellite tracking software.pdb
+C:\Users\victo\Desktop\Windows forms Amtrack\Amtrack - Satellite tracking software\Amtrack - Satellite tracking software\obj\Debug\Amtrack___Satellite_tracking_software.Form.resources
