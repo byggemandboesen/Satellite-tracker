@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fddb388-43a2-45b8-ad00-d17f0caaaa2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/.vs/Satellite program - C sharp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/.vs/Satellite program - C sharp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Global.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Satellite program - C sharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Satellite program - C sharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Satinfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Satinfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/Track.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/bin/Debug/Satellite program - C sharp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/bin/Debug/Satellite program - C sharp.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/bin/Debug/Satellite program - C sharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/bin/Debug/Satellite program - C sharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Satellite program - C sharp/Satellite program - C sharp/obj/Debug/Satellite program - C sharp.pdb" afterDir="false" />
@@ -37,9 +41,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Python/project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Visible_sats">
     <configuration name="Track" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Track - python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,8 +66,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Visible_sats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Track - python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visible_sats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Visible_sats" />
         <item itemvalue="Python.Track" />
       </list>
     </recent_temporary>
@@ -81,29 +108,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1588535051320">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1589622387215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588535051320" />
-    <state width="629" height="885" key="GridCell.Tab.0.bottom" timestamp="1588535052580">
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589622387215" />
+    <state width="629" height="885" key="GridCell.Tab.0.bottom" timestamp="1589220145232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588535052580" />
-    <state width="629" height="885" key="GridCell.Tab.0.center" timestamp="1588535052579">
+    <state width="629" height="885" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589220145232" />
+    <state width="629" height="885" key="GridCell.Tab.0.center" timestamp="1589220145232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588535052579" />
-    <state width="629" height="885" key="GridCell.Tab.0.left" timestamp="1588535052579">
+    <state width="629" height="885" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589220145232" />
+    <state width="629" height="885" key="GridCell.Tab.0.left" timestamp="1589220145232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588535052579" />
-    <state width="629" height="885" key="GridCell.Tab.0.right" timestamp="1588535052579">
+    <state width="629" height="885" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589220145232" />
+    <state width="629" height="885" key="GridCell.Tab.0.right" timestamp="1589220145232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588535052579" />
-    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1588534253044">
+    <state width="629" height="885" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589220145232" />
+    <state x="352" y="77" key="SettingsEditor" timestamp="1588840202540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588534253044" />
+    <state x="352" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588840202540" />
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1589622366145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589622366145" />
   </component>
 </project>
