@@ -120,5 +120,13 @@ namespace Amtrack___Satellite_tracking_software
                 }
             }
         }
+
+        // Sets custom TLE given by user
+        private void CustomSatUpdate_Click(object sender, EventArgs e)
+        {
+            string[] TLE = new string[] { ObjectName.Text, Line1.Text, Line2.Text };
+            Values.TLESat = TLE;
+            Executions.Sat_Update(Sat_Name, Launch_Year, Catalog_Number);
+        }
     }
 }

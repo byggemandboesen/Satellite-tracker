@@ -49,6 +49,14 @@
             this.Catalog_Number = new System.Windows.Forms.Label();
             this.Track = new System.Windows.Forms.Button();
             this.Active_sats = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.CustomSatUpdate = new System.Windows.Forms.Button();
+            this.ObjectName = new System.Windows.Forms.TextBox();
+            this.Line1 = new System.Windows.Forms.TextBox();
+            this.Line2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Title
@@ -168,7 +176,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(106, 351);
+            this.label3.Location = new System.Drawing.Point(106, 453);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 15);
             this.label3.TabIndex = 11;
@@ -178,7 +186,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(256, 351);
+            this.label5.Location = new System.Drawing.Point(256, 453);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(89, 15);
             this.label5.TabIndex = 12;
@@ -188,7 +196,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(401, 351);
+            this.label6.Location = new System.Drawing.Point(401, 453);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(98, 15);
             this.label6.TabIndex = 13;
@@ -199,7 +207,7 @@
             this.Sat_Name.AutoSize = true;
             this.Sat_Name.BackColor = System.Drawing.Color.Red;
             this.Sat_Name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sat_Name.Location = new System.Drawing.Point(109, 366);
+            this.Sat_Name.Location = new System.Drawing.Point(109, 468);
             this.Sat_Name.Name = "Sat_Name";
             this.Sat_Name.Size = new System.Drawing.Size(32, 17);
             this.Sat_Name.TabIndex = 14;
@@ -210,7 +218,7 @@
             this.Launch_Year.AutoSize = true;
             this.Launch_Year.BackColor = System.Drawing.Color.Red;
             this.Launch_Year.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Launch_Year.Location = new System.Drawing.Point(259, 366);
+            this.Launch_Year.Location = new System.Drawing.Point(259, 468);
             this.Launch_Year.Name = "Launch_Year";
             this.Launch_Year.Size = new System.Drawing.Size(32, 17);
             this.Launch_Year.TabIndex = 15;
@@ -221,7 +229,7 @@
             this.Catalog_Number.AutoSize = true;
             this.Catalog_Number.BackColor = System.Drawing.Color.Red;
             this.Catalog_Number.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Catalog_Number.Location = new System.Drawing.Point(404, 366);
+            this.Catalog_Number.Location = new System.Drawing.Point(404, 468);
             this.Catalog_Number.Name = "Catalog_Number";
             this.Catalog_Number.Size = new System.Drawing.Size(32, 17);
             this.Catalog_Number.TabIndex = 16;
@@ -229,7 +237,7 @@
             // 
             // Track
             // 
-            this.Track.Location = new System.Drawing.Point(135, 430);
+            this.Track.Location = new System.Drawing.Point(135, 505);
             this.Track.Name = "Track";
             this.Track.Size = new System.Drawing.Size(130, 30);
             this.Track.TabIndex = 17;
@@ -239,7 +247,7 @@
             // 
             // Active_sats
             // 
-            this.Active_sats.Location = new System.Drawing.Point(335, 430);
+            this.Active_sats.Location = new System.Drawing.Point(335, 505);
             this.Active_sats.Name = "Active_sats";
             this.Active_sats.Size = new System.Drawing.Size(130, 30);
             this.Active_sats.TabIndex = 18;
@@ -247,12 +255,91 @@
             this.Active_sats.UseVisualStyleBackColor = true;
             this.Active_sats.Click += new System.EventHandler(this.Active_sats_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(38, 351);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 16);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Name:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(38, 379);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(52, 16);
+            this.label8.TabIndex = 20;
+            this.label8.Text = "1st line:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(38, 407);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(57, 16);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "2nd line:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(261, 330);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(79, 15);
+            this.label10.TabIndex = 22;
+            this.label10.Text = "Custom TLE:";
+            // 
+            // CustomSatUpdate
+            // 
+            this.CustomSatUpdate.Location = new System.Drawing.Point(487, 361);
+            this.CustomSatUpdate.Name = "CustomSatUpdate";
+            this.CustomSatUpdate.Size = new System.Drawing.Size(75, 50);
+            this.CustomSatUpdate.TabIndex = 23;
+            this.CustomSatUpdate.Text = "Update satellite";
+            this.CustomSatUpdate.UseVisualStyleBackColor = true;
+            this.CustomSatUpdate.Click += new System.EventHandler(this.CustomSatUpdate_Click);
+            // 
+            // ObjectName
+            // 
+            this.ObjectName.Location = new System.Drawing.Point(101, 348);
+            this.ObjectName.Name = "ObjectName";
+            this.ObjectName.Size = new System.Drawing.Size(380, 22);
+            this.ObjectName.TabIndex = 24;
+            // 
+            // Line1
+            // 
+            this.Line1.Location = new System.Drawing.Point(101, 376);
+            this.Line1.Name = "Line1";
+            this.Line1.Size = new System.Drawing.Size(380, 22);
+            this.Line1.TabIndex = 25;
+            // 
+            // Line2
+            // 
+            this.Line2.Location = new System.Drawing.Point(101, 404);
+            this.Line2.Name = "Line2";
+            this.Line2.Size = new System.Drawing.Size(380, 22);
+            this.Line2.TabIndex = 26;
+            // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(584, 511);
+            this.ClientSize = new System.Drawing.Size(584, 561);
+            this.Controls.Add(this.Line2);
+            this.Controls.Add(this.Line1);
+            this.Controls.Add(this.ObjectName);
+            this.Controls.Add(this.CustomSatUpdate);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.Active_sats);
             this.Controls.Add(this.Track);
             this.Controls.Add(this.Catalog_Number);
@@ -274,8 +361,8 @@
             this.Controls.Add(this.Title);
             this.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(600, 550);
-            this.MinimumSize = new System.Drawing.Size(600, 550);
+            this.MaximumSize = new System.Drawing.Size(600, 600);
+            this.MinimumSize = new System.Drawing.Size(600, 600);
             this.Name = "Form";
             this.Text = "Amtrack - By Victor Boesen";
             this.ResumeLayout(false);
@@ -305,6 +392,14 @@
         private System.Windows.Forms.Label Catalog_Number;
         private System.Windows.Forms.Button Track;
         private System.Windows.Forms.Button Active_sats;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button CustomSatUpdate;
+        private System.Windows.Forms.TextBox ObjectName;
+        private System.Windows.Forms.TextBox Line1;
+        private System.Windows.Forms.TextBox Line2;
     }
 }
 
