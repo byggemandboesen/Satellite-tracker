@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace Amtrack___Satellite_tracking_software
 {
     class Values
     {
         // Path to TLE-folder
-        public static String TLE_Path { get; set; }
+        public static String TLE_Path = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "TLE");
 
         // TLE names
         public static string[] tlenames = new string[] { "amateur.txt", "cubesat.txt", "dmc.txt", "education.txt",

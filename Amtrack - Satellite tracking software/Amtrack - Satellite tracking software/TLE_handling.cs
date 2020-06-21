@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
@@ -20,7 +17,7 @@ namespace Amtrack___Satellite_tracking_software
         }
 
 
-        // Gets three TLE lines of clicked satellite and returns
+        // Gets three TLE lines of clicked satellite and returns them as three item string array
         public static string[] Get_TLE(int pressed)
         {
             string[] TLE = new string[3];
