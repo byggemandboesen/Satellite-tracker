@@ -1,14 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Net;
+using System.Diagnostics;
 using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Amtrack___Satellite_tracking_software
@@ -18,29 +10,16 @@ namespace Amtrack___Satellite_tracking_software
         public Form()
         {
             InitializeComponent();
+            
+            // Updates updatable and available sats after initializing form
+            Executions.TLEUpdatePrint(TLE_Update);
+            Executions.TLEAvailPrint(TLE_Files);
         }
 
         // User chooses path for TLE-files
         private void GetTLEPath_Click(object sender, EventArgs e)
         {
-            Sats.Items.Clear();
-
-            FolderBrowserDialog TLEPath = new FolderBrowserDialog();
-            TLEPath.Description = "Please select the folder for your TLE-files:";
-            
-            if (TLEPath.ShowDialog() == DialogResult.OK)
-            {
-                Values.TLE_Path = TLEPath.SelectedPath;
-
-                // Prints options to download TLE
-                Executions.TLEUpdatePrint(TLE_Update);
-
-                // Prints downloaded TLE
-                Executions.TLEAvailPrint(TLE_Files);
-                
-                GetTLEPath.BackColor = Color.LightGreen;
-                Path.Text = Values.TLE_Path;
-            }
+            Process.Start(Values.TLE_Path);
         }
 
 
@@ -119,6 +98,14 @@ namespace Amtrack___Satellite_tracking_software
                     MessageBox.Show("Please run \"Visible_sats.py\" first");
                 }
             }
+        }
+
+        // Sets custom TLE given by user
+        private void CustomSatUpdate_Click(object sender, EventArgs e)
+        {
+            string[] TLE = CustomTLE.Lines;
+            Values.TLESat = TLE;
+            Executions.Sat_Update(Sat_Name, Launch_Year, Catalog_Number);
         }
     }
 }

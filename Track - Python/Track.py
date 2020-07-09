@@ -125,9 +125,13 @@ while True:
         Line2 = (conn.recv(1024)).decode()
         Line3 = (conn.recv(1024)).decode()
 
-    #  Creates TLE set from the three lines sent thorugh TCP-socket
-    tle_sat = ephem.readtle(Line1, Line2, Line3)
-    tle_sat.compute()
+    try:
+        #  Creates TLE set from the three lines sent thorugh TCP-socket
+        tle_sat = ephem.readtle(Line1, Line2, Line3)
+        tle_sat.compute()
+    except ValueError as err:
+        print(f'Invalid TLE, error: \"{err}\".\nPlease check custom TLE and rerun \"Track.py\".')
+        break
 
     # Creates map and appends it a title
     my_map = Basemap(projection='cyl', resolution='c', area_thresh=1000.0, lat_0=0, lon_0=0)
