@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0fddb388-43a2-45b8-ad00-d17f0caaaa2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/.vs/Amtrack - Satellite tracking software/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/.vs/Amtrack - Satellite tracking software/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Socket_handling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Socket_handling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Values.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/Values.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/bin/Debug/Amtrack - Satellite tracking software.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/bin/Debug/Amtrack - Satellite tracking software.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/bin/Debug/Amtrack - Satellite tracking software.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/bin/Debug/Amtrack - Satellite tracking software.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack - Satellite tracking software.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amtrack - Satellite tracking software/Amtrack - Satellite tracking software/obj/Debug/Amtrack___Satellite_tracking_software.Form.resources" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Track.py" beforeDir="false" afterPath="$PROJECT_DIR$/Track.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,29 +101,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589622387215" />
-    <state width="629" height="885" key="GridCell.Tab.0.bottom" timestamp="1590690700391">
+    <state width="629" height="885" key="GridCell.Tab.0.bottom" timestamp="1590693447562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590690700391" />
-    <state width="629" height="885" key="GridCell.Tab.0.center" timestamp="1590690700390">
+    <state width="629" height="885" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590693447562" />
+    <state width="629" height="885" key="GridCell.Tab.0.center" timestamp="1590693447562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590690700390" />
-    <state width="629" height="885" key="GridCell.Tab.0.left" timestamp="1590690700390">
+    <state width="629" height="885" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590693447562" />
+    <state width="629" height="885" key="GridCell.Tab.0.left" timestamp="1590693447562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590690700390" />
-    <state width="629" height="885" key="GridCell.Tab.0.right" timestamp="1590690700391">
+    <state width="629" height="885" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590693447562" />
+    <state width="629" height="885" key="GridCell.Tab.0.right" timestamp="1590693447562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="629" height="885" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590690700391" />
+    <state width="629" height="885" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590693447562" />
     <state x="352" y="77" key="SettingsEditor" timestamp="1588840202540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="352" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588840202540" />
-    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1590685572663">
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1591176926087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590685572663" />
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591176926087" />
   </component>
 </project>
